@@ -1,0 +1,23 @@
+/* Mobile & tablet  */
+@media (max-width: 1023px) {
+  html {
+    font-size: 63%;
+  }
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+  html {
+    font-size: 55%;
+  }
+}
+/* > PC max resolution */
+@media (min-width: 1024px) and (max-width: 1239px) {
+  html {
+    font-size: 50%;
+  }
+}
+/* mobile */
+@media (max-width: 739px) {
+  html {
+    font-size: 50%;
+  }
+}

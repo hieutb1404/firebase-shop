@@ -1,0 +1,82 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@100;300;400;500;600&display=swap');
+:root {
+  --black: #000;
+  --white: #fff;
+  --primary: #fe2c55;
+  --coral: coral;
+  --text-color: #161823;
+  --light-blue: #1f93ff;
+  --dark-blue: #0a1930;
+  --color-dark: #333;
+  --color-gray: #eee;
+  --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+  --color-purple: #9d0191;
+  --color-orange: #ff7722;
+  --color-primary: #007bff;
+  --color-success: #28a745;
+  --color-danger: orangered;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: 'Gentium Book Plus', serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  color: var(--text-color);
+}
+button,
+input,
+[tabindex] {
+  outline: none;
+  border: none;
+}
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+.--btn {
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 6px 8px;
+  margin: 0 5px 0 0;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.--btn-primary {
+  background-color: var(--color-primary);
+  color: var(--white);
+}
+.--btn-danger {
+  background-color: var(--color-orange);
+  color: var(--white);
+}
+
+.--btn-primary-block {
+  width: 100%;
+  display: block;
+}
